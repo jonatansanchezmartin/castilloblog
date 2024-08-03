@@ -60,32 +60,80 @@
                     <label for="name">
                         Nombre
                     </label>
-                    <input type="text" name="name" id="nameRegister"/>
+                    <input 
+                        type="text" 
+                        name="name" 
+                        id="nameRegister"
+                        />
+
+                    <span
+                        class="error"
+                        id="nameError"
+                        >
+                    </span>
 
 
                     <label for="lastName">
                         Apellidos
                     </label>
-                    <input type="text" name="lastName" id="lastNameRegister"/>
+
+                    <input 
+                        type="text" 
+                        name="lastName" 
+                        id="lastNameRegister"
+                        />
+
+                    <span
+                        class="error"
+                        id="lastNameError"
+                        >
+                    </span>
 
 
 
                     <label for="email">
                         Email
                     </label>
-                    <input type="text" name="email" id="emailRegister"/>
+
+                    <input 
+                        type="text" 
+                        name="email" 
+                        id="emailRegister"
+                        />
+                    
+                    <span
+                        class="error"
+                        id="emailError"
+                        >
+                    </span> 
 
 
 
                     <label for="password">
                         Contraseña
                     </label>
-                    <input type="password" name="password" id="passwordRegister"/>
+
+                    <input 
+                        type="password" 
+                        name="password" 
+                        id="passwordRegister"
+                        />
+
+                    <span
+                        class="error"
+                        id="passwordError"
+                        >
+                    </span>
 
 
                 </form>
 
-                <button type="submit" class="button" onclick="checkRegister()">Entrar</button>
+                <button 
+                    type="submit" 
+                    class="button" 
+                    onclick="checkRegister()">
+                        Entrar
+                    </button>
 
 
 

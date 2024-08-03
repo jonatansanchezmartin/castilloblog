@@ -208,6 +208,11 @@ input[type="submit"],
     border-color: #444;
 }
 
+.error{
+    color: red;
+    font-weight: bold;
+}
+
 
 /*PRINCIPAL*/
 #main{
