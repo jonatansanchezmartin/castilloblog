@@ -31,7 +31,11 @@
                     </label>
                     <input type="text" name="email" id="emailLogin"/>
 
-                    <p id="errorEmailLogin"></p>
+                    <span 
+                        class="error"    
+                        id="errorEmailLogin"
+                    >
+                    </span>
 
                     <label for="password">
                         Contraseña
@@ -39,11 +43,21 @@
 
                     <input type="password" name="password" id="passwordLogin"/>
 
-                    <p id="errorEmailLogin"></p>
+                    <span 
+                        class="error"    
+                        id="errorPasswordLogin"
+                    >
+                    </span>
 
                 </form>
 
-                <button type="submit" class="button" onclick="checkLogin()">Entrar</button>
+                <button 
+                    type="button" 
+                    class="button" 
+                    onclick="checkLogin()"
+                    >
+                    Entrar
+                </button>
 
 
             </div>
@@ -131,7 +145,8 @@
                 <button 
                     type="submit" 
                     class="button" 
-                    onclick="checkRegister()">
+                    onclick="checkRegister()"
+                    >
                         Entrar
                     </button>
 
